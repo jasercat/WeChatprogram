@@ -35,6 +35,7 @@ Page({
   },
   gameStart: function() {  // 游戏开始
     var main = new Main(5);
+    this.maxstep=0;
     this.setData({
       main: main,
       bestScore: wx.getStorageSync('highScore')

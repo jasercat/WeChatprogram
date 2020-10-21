@@ -5,6 +5,7 @@ function Main(size) {
   this.startData = 6; // 初始填充2个数据
   this.init();
   this.judge=0;
+  this.count=0;
 }
 
 
